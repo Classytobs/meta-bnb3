@@ -34,20 +34,25 @@
 }
 @media only screen and (max-width: 700px) {
     .frame1 {
-        padding-left: 4px;
-        padding-right: 4px;
+        padding-left: 10px;
+        padding-right: 10px;
         justify-content: center;
         display: flex;
 
     }
     .frame1__content {
         margin-right: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .input__block {
         display: flex;
         justify-content: center;
         align-items: center;
+        /* padding-left: 15px;
+        padding-right: 15px;
+        max-width: 100%; */
     }
     .image4, .image6, .image3, .image5 {
         width: 180px;
@@ -57,6 +62,12 @@
         justify-content: center;
         align-items: center;
         margin-top: 10px;
+    }
+    .content__1, .content__2 {
+
+        padding-left: 14px;
+        padding-right: 14px;
+        
     }
 }
 
@@ -74,6 +85,7 @@ span {
     line-height: 35px;
     color: #434343;
     height: 102px;
+
 }
 input {
     background: rgba(247, 247, 247, 0.1);
