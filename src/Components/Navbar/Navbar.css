@@ -55,6 +55,7 @@ h4 {
     display: none;
     cursor: pointer;
   }
+  
 
   .modal__open {
     margin-top: 150px;
@@ -74,6 +75,9 @@ h4 {
     .modal__open {
         margin-top: 150px;
         margin-left: 40px;
+      }
+      li {
+        border-bottom: 1px solid #CFD8DC;
       }
     .navbar__all {
         position: absolute;
