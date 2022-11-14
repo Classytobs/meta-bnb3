@@ -1,0 +1,25 @@
+.frame3__all {
+    min-height: 963px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 53px;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+    font-family: 'Red Rose';
+    font-style: normal;
+}
+
+.frame3__all h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+@media only screen and (max-width: 700px) {
+    .frame3__all {
+        padding: 5px;
+    }
+}

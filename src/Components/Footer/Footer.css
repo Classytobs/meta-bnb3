@@ -1,0 +1,112 @@
+
+.footer__all {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    min-height: 300px;
+    background: #1D1D1E;
+    padding-left: 113px;
+    padding-top: 28px;
+    overflow: hidden;
+    padding-right: 160px;
+    justify-content: space-between;
+}
+
+.footer__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 235px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.social__media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 120px;
+}
+
+.footer__content {
+    min-height: 169px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    width: 650px;
+    font-family: 'Red Rose';
+    font-style: normal;
+    gap:50px;
+    }
+
+    .community, .places, .aboutUs {
+        display: flex;
+        flex-direction: column;
+        height: 169px;
+        color: #FFFFFF;
+        padding: 0px;
+        justify-content: space-between;
+        margin-top:30px;
+        margin-bottom:30px;
+    }
+    
+   .communityh2, .placesh2, .aboutUsh2 {
+        display: flex;
+        flex-direction: column;
+        height: 124px;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 0px;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 35px;
+    }
+    .communityh2:hover, .placesh2:hover, .aboutUsh2:hover {
+        display: flex;
+        flex-direction: column;
+        height: 124px;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 0px;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 35px;
+        cursor: pointer;
+    }
+    .communityh1 h1, .placesh1 h1, .aboutUsh1 h1 {
+        padding-top: 0px;
+        padding-left: 0px;
+        margin: 0px;
+        color: #F1F3F9;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .communityh2 h2, .placesh2 h2, .aboutUsh2 h2 {
+        margin: 0px;
+        color: #F1F3F9;
+        font: 1px;
+        width: fit-content;
+        padding-left:0px;
+        padding-right: 1px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+    }
+    .bnb1 {
+        margin-left: 0px;
+    }
+    @media only screen and (max-width: 700px) {
+        .footer__all {
+            display: flex;
+            align-items: flex-start;
+            padding: 5px;
+        }
+        .footer__content{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
