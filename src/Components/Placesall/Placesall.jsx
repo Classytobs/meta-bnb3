@@ -1,11 +1,29 @@
 import React from 'react'
 import stay from '../Data/Dataplaces'
 import Rating from '../../Assets/Rating.svg'
+import location from '../../Assets/location.svg'
 import './Placesall.css'
 
 export default function Placesall() {
   return (
-    <div className='places__all'>
+    <div className='places__e'>
+      <div className="placeto-nav">
+        <div className="text">
+          <p>Restaurant</p>
+          <p>Cottage</p>
+          <p>Castle</p>
+          <p>Fantastic City</p>
+          <p>Beach</p>
+          <p>Carbins</p>
+          <p>Off-grid</p>
+          <p>Farm</p>
+        </div>
+        <div className="location-button">
+            <p>Location</p>
+            <img src={location} alt="Profile" />
+        </div>
+      </div>
+      <div className='places__all'>
       {stay.map((pstay, key) => (
         <div className="places__frame">
 
@@ -33,6 +51,7 @@ export default function Placesall() {
         </div>
     </div>
   ))}
+  </div>
   </div>
   )
 }

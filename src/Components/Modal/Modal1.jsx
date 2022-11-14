@@ -2,29 +2,26 @@ import React from 'react'
 import meta from '../../Assets/meta.svg'
 import walletconnect from '../../Assets/walletconnect.svg'
 import arrow from '../../Assets/arrow.svg'
-import './Modal.css'
+import './Modal1.css'
 
 
 export default function Modal() {
-    const handleClick = (e) => {
-        setModal(!modal);
-      }
 
  return (
-         <div>
-                <div>
+         <div className='button__modal' >
+                <div className='cwallet'>
                     <h1>Connect Wallet</h1>
-                    <span> X </span>
+                    <h2> X </h2>
                 </div>
 
-                <div>
+                <div className='mw'>
                     <h1 >Choose your preferred wallet:</h1>
-                    <div>
-                    <img src={meta} alt="meta" />  <span>Metamask</span>
+                    <div className='lm'>
+                    <img src={meta} alt="meta" />  <h2>Metamask</h2>
                     <img src={arrow} alt="arrow" />
                     </div>
-                    <div>
-                        <img src={walletconnect} alt="walletconnect" /> <span >WalletConnect</span>
+                    <div className='lw'>
+                        <img src={walletconnect} alt="walletconnect" /> <h2>WalletConnect</h2>
                         <img src={arrow} alt="arrow" />
                     </div>
                     

@@ -3,6 +3,8 @@ import './Navbar.css'
 import Bnbn from '../../Assets/Bnbn.png'
 import {Link} from 'react-router-dom';
 import menu from '../../Assets/menu.png'
+import Modal from 'react-modal';
+import Modal1 from '../Modal/Modal1';
 
 export default function Navbar() {
 
@@ -11,6 +13,13 @@ export default function Navbar() {
    const handleClick = () => 
 	 	setClick(!click);
 	 
+
+    const [modalIsOpen, setModalIsOpen] = useState(false);
+ 
+
+     const handleClickModal = () => {
+      setModalIsOpen(!modalIsOpen);
+       }
 
 
   return (
@@ -42,9 +51,13 @@ export default function Navbar() {
             </ul>
         </div>
 
-        <div className='connect'>
+        <div className='connect' onClick={handleClickModal}>
            <h4>Connect Wallet</h4>
         </div>
+
+            <Modal isOpen={modalIsOpen} className='modal__open'>
+                <Modal1 />
+            </Modal>
       
     </div>
   )

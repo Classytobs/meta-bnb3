@@ -1,0 +1,53 @@
+.button__modal {
+    background: #FFFFFF;
+    border-radius: 16px;
+    min-width: 400px;
+    min-height: 300px;
+    border: 1px solid #CFD8DC;
+}
+
+.cwallet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid #CFD8DC;
+    padding: 20px;
+    margin-bottom: 8px;
+}
+.cwallet h2 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+}
+.lm, .lw {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #CFD8DC;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+}
+.lm h2, .lw h2 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    margin-left: 5px;
+}
+.lm h2 {
+    margin-right: 155px;
+}
+.lw h2 {
+    margin-right: 125px;
+}
+.mw {
+    padding: 20px;
+}
+
+.mw h1 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
