@@ -30,7 +30,7 @@ export default function Navbar() {
         <div className="nav-icon" onClick={handleClick}>
             <img src={menu} alt='menu'/>
         </div>
-        <div className={click ? 'navbar__options active' : 'navbar__options'}>
+        <div className={click ? 'navbar__options' : 'navbar__optionsactive' }>
             <ul className='nav-link'>
                 <li>
                 <Link style={{textDecoration: 'none', color: '#434343'}} to="/" 
