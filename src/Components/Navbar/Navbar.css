@@ -64,7 +64,7 @@ h4 {
   justify-content: center;
   align-items: center;
   width: 500px;
-  height: 350px;
+  height: fit-content;
   background: #FFFFFF;
   border: 1px solid #CFD8DC;
   border-radius: 16px;
@@ -75,8 +75,8 @@ h4 {
     justify-content: center;
       margin-top: 150px;
       margin-left: 70px;
-      width: 280px;
-      height: 150px;
+      width: 300px;
+     
     }
   }
 
@@ -85,8 +85,7 @@ h4 {
     justify-content: center;
       margin-top: 150px;
       margin-left: 70px;
-      width: 280px;
-      height: 150px;
+      width: 300px;
     }
     
     li {
