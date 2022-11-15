@@ -142,6 +142,9 @@ h4 {
   }
 
 @media (max-width: 768px) {
+  cwallet h1 {
+    font: 12px;
+  }
   .modal__open {
     justify-content: center;
       margin-top: 150px;
