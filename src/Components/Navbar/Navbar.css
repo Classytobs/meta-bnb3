@@ -16,7 +16,7 @@
   background-color: white;
   width: 100%;
 }
-.navbar__optionsactive ul {
+.nav-link {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -117,7 +117,7 @@ h4 {
   border-radius: 8px;
   gap: 20px;
   position: relative;
-  top:95px;
+  top:96px;
   left: -20%;
   transition: 0.5s all;
   opacity: 1;
