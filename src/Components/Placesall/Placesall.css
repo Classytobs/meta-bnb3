@@ -28,14 +28,34 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     width: 100%;
     padding-left: 140px;
     padding-right: 140px;
 }
-@media only screen and (max-width: 700px) {
+@media (max-width: 480px) {
     .placeto-nav{
-        padding: 10px;
+
+        width: 90%;
+        padding: 20px;
+        gap: 6px;
+    
+    }
+    .placeto-nav:hover {
+        cursor: pointer;
+    }
+    .text {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 78%;
+    }
+}
+@media (max-width: 768px) {
+    .placeto-nav{
+        padding: 20px;
+        width: 90%;
         gap: 6px;
     }
     .text {
@@ -52,6 +72,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
     width: 78%;
 }
 .location-button {
