@@ -13,7 +13,7 @@ export default function Footer() {
         <div className='footer__all'>
             <div className='footer__logo'>
                 <div className='bnb1'>
-                    <Link to ='/'><img className='bnb'src={Bnb}  alt ="bnb" id="bnb" /></Link>
+                    <a href='#home'><img className='bnb'src={Bnb}  alt ="bnb" id="bnb" /></a>
                 </div>
 
                 <div className='social__media'>

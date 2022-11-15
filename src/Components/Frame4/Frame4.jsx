@@ -5,7 +5,7 @@ import imagecombo from '../../Assets/image combo.png'
 
 export default function Frame4() {
   return (
-    <div className='frame4' id='nft'>
+    <div className='frame4' id='nfts'>
       <div className='frame4__content'>
 
         <div className='f4content__1'><h1>Metabnb NFTs</h1></div>

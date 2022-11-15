@@ -25,7 +25,7 @@ export default function Navbar() {
   return (
     <div className='navbar__all'>
         <div>
-        <Link to='/'><img className='Bnbn'src={Bnbn}  alt ="bnbn" id="bnbn" /></Link>
+        <a href='#home'><img className='Bnbn'src={Bnbn}  alt ="bnbn" id="bnbn" /></a>
         </div>
         <div className="nav-icon" onClick={handleClick}>
             <img src={menu} alt='menu'/>
@@ -33,20 +33,20 @@ export default function Navbar() {
         <div className={click ? 'navbar__options' : 'navbar__optionsactive' }>
             <ul className='nav-link'>
                 <li>
-                <Link style={{textDecoration: 'none', color: '#434343'}} to="/" 
-                onClick={handleClick}>Home</Link>
+                <a style={{textDecoration: 'none', color: '#434343'}} href="/#home" 
+                onClick={handleClick}>Home</a>
                 </li>
                 <li>
                 <Link style={{textDecoration: 'none', color: '#434343'}}  to="/place-to-stay" 
                 onClick={handleClick}>Place to stay</Link>
                 </li>
                 <li>
-                <Link style={{textDecoration: 'none', color: '#434343'}} to="/#nfts"
-                 onClick={handleClick}>NFTs</Link>
+                <a style={{textDecoration: 'none', color: '#434343'}} href="/#nfts"
+                 onClick={handleClick}>NFTs</a>
                 </li>
                 <li>
-                <Link style={{textDecoration: 'none', color: '#434343'}}  to="/#community"
-                 onClick={handleClick}>Community</Link>
+                <a style={{textDecoration: 'none', color: '#434343'}}  href="/#community"
+                 onClick={handleClick}>Community</a>
                 </li>
             </ul>
         </div>

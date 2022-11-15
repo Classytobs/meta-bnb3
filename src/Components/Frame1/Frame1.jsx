@@ -8,7 +8,7 @@ import './Frame1.css'
 export default function Frame1() {
   return (
     <>
-        <div className='frame1'>
+        <div className='frame1' id='home'>
             <div className='frame1__content'>
 
                 <div className='content__1'><h1>Rent a <span>Place</span> away from <span>Home</span> in the <span>Metaverse</span></h1></div>
