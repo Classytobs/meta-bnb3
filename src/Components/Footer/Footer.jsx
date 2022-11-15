@@ -5,7 +5,7 @@ import Bnbb from '../../Assets/Bnbb.svg'
 import facebook from '../../Assets/facebook.svg'
 import instagram from '../../Assets/instagram.svg'
 import twitter from '../../Assets/twitter.svg'
-import {Link} from 'react-router-dom';
+
 
 
 export default function Footer() {
