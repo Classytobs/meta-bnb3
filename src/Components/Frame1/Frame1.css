@@ -1,7 +1,7 @@
 .img__both {
     display: flex;
     flex-direction: row;
-    max-width: 400px;
+    max-width: 380px;
     height: 459px;
 }
 .img__cate1{
@@ -39,6 +39,7 @@
         justify-content: center;
         display: flex;
     }
+    
     .input__block {
         display: flex;
         justify-content: center;
@@ -69,6 +70,7 @@
         display: flex;
 
     }
+    
     .frame1__content {
         margin-right: 0px;
         padding-left: 20px;
@@ -159,4 +161,5 @@ input {
 
 .image4, .image6, .image3, .image5 {
     margin: 2px;
+    width: 100%;
 }
