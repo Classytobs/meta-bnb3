@@ -58,13 +58,13 @@ h4 {
   
 
   .modal__open {
-    margin-top: 150px;
+    margin-top: 200px;
     display: flex;
     margin-left: 560px;
     justify-content: center;
     align-items: center;
     width: 280px;
-    height: 150x;
+    height: 150px;
     background: #FFFFFF;
     border: 1px solid #CFD8DC;
     border-radius: 16px;
