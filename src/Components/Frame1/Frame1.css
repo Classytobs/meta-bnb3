@@ -32,7 +32,7 @@
     margin-bottom: 60px;
     
 }
-@media only screen and (max-width: 700px) {
+@media  (max-width: 700px) {
     .frame1 {
         padding-left: 10px;
         padding-right: 10px;
