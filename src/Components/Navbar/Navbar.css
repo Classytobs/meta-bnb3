@@ -60,12 +60,11 @@ h4 {
   .modal__open {
     margin-top: 150px;
     display: flex;
-    margin-left: 460px;
-    margin-right: 460px;
+    margin-left: 560px;
     justify-content: center;
     align-items: center;
-    width: 400px;
-    height: 300px;
+    width: 280px;
+    height: 150x;
     background: #FFFFFF;
     border: 1px solid #CFD8DC;
     border-radius: 16px;
@@ -74,9 +73,9 @@ h4 {
   @media only screen and (max-width: 700px) {
     .modal__open {
         margin-top: 150px;
-        margin-left: 40px;
-        max-width:100% ;
+        margin-left: 100px;
       }
+      
       li {
         border-bottom: 1px solid #CFD8DC;
       }
@@ -120,7 +119,7 @@ h4 {
     position: relative;
     top:95px;
     left: -20%;
-	transition: 0.5s all;
+	  transition: 0.5s all;
     opacity: 1;
 }
 .navbar__options.active {

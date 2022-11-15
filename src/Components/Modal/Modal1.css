@@ -1,8 +1,8 @@
 .button__modal {
     background: #FFFFFF;
     border-radius: 16px;
-    min-width: 400px;
-    min-height: 300px;
+    min-width: 280px;
+    min-height: 150px;
     border: 1px solid #CFD8DC;
 }
 
@@ -12,13 +12,14 @@
     justify-content: space-between;
     align-items: flex-start;
     border-bottom: 1px solid #CFD8DC;
-    padding: 20px;
+    padding: 15px;
     margin-bottom: 8px;
 }
 .cwallet h2 {
     font-weight: 400;
     font-size: 20px;
     line-height: 20px;
+    padding-top: 10px;
 }
 .lm, .lw {
     display: flex;
@@ -36,10 +37,10 @@
     margin-left: 5px;
 }
 .lm h2 {
-    margin-right: 155px;
+    margin-right: 50px;
 }
 .lw h2 {
-    margin-right: 122px;
+    margin-right: 22px;
 }
 .mw {
     padding: 20px;
