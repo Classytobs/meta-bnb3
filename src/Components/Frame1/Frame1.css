@@ -16,7 +16,7 @@
     padding-left: 100px;
     padding-right: 119px;
     justify-content: center;
-    min-height: 459px;
+    min-height: 520px;
     margin-top: 180px;
 }
 .frame1__content {
@@ -43,12 +43,20 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
         
     }
     .frame1__content {
         margin-right: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .img__both {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -71,8 +79,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
         
     }
     .image4, .image6, .image3, .image5 {
@@ -82,7 +90,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 10px;
+        margin-top: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .content__1, .content__2 {
 

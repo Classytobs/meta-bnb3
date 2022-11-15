@@ -27,6 +27,10 @@
         padding: 20px;
         margin: 0px;
     }
+    .frame4__img img {
+        max-width:360px;
+        max-height:340px;
+    }
 }
 
 @media (max-width: 768px) {
