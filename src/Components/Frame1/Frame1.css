@@ -1,7 +1,7 @@
 .img__both {
     display: flex;
     flex-direction: row;
-    width: 476px;
+    max-width: 450px;
     height: 459px;
 }
 .img__cate1{
@@ -21,7 +21,7 @@
 }
 .frame1__content {
     height: 430px;
-    width: 500px;
+    max-width: 470px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -47,6 +47,11 @@
         padding-right: 30px;
         
     }
+    .frame1__content {
+        margin-right: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 @media  (max-width: 768px) {
     .frame1 {
@@ -58,8 +63,8 @@
     }
     .frame1__content {
         margin-right: 0px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .input__block {
