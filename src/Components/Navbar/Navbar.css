@@ -75,6 +75,7 @@ h4 {
     .modal__open {
         margin-top: 150px;
         margin-left: 40px;
+        max-width:100% ;
       }
       li {
         border-bottom: 1px solid #CFD8DC;
@@ -87,7 +88,7 @@ h4 {
         justify-content: flex-start;
         top: -2px;
         height: 80px;
-        padding-left: 5px;
+        padding-left: 10px;
     }
     .Bnbn {
         width: 140px;
@@ -101,7 +102,9 @@ h4 {
         display: flex;
         padding-left: 4px;
         padding-right: 4px;
-
+    }
+    .connect:hover {
+      cursor: pointer;
     }
 
   .navbar__options ul {
