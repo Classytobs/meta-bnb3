@@ -34,17 +34,24 @@
 }
 @media (max-width: 480px) {
     .frame1 {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 25px;
+        padding-right: 25px;
         justify-content: center;
         display: flex;
-
+    }
+    .input__block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        
     }
 }
 @media  (max-width: 768px) {
     .frame1 {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 25px;
+        padding-right: 25px;
         justify-content: center;
         display: flex;
 
@@ -59,9 +66,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        /* padding-left: 15px;
-        padding-right: 15px;
-        max-width: 100%; */
+        padding-left: 30px;
+        padding-right: 30px;
+        
     }
     .image4, .image6, .image3, .image5 {
         width: 180px;
