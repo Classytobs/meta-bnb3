@@ -1,7 +1,7 @@
 .img__both {
     display: flex;
     flex-direction: row;
-    max-width: 450px;
+    max-width: 400px;
     height: 459px;
 }
 .img__cate1{
@@ -21,7 +21,7 @@
 }
 .frame1__content {
     height: 430px;
-    max-width: 470px;
+    max-width: 410px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
