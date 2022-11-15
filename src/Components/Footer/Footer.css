@@ -98,11 +98,19 @@
     .bnb1 {
         margin-left: 0px;
     }
-    @media only screen and (max-width: 700px) {
+    
+    @media  (max-width: 480px) {
         .footer__all {
             display: flex;
             align-items: flex-start;
-            padding: 5px;
+            padding: 20px;
+        }
+    }
+    @media  (max-width: 700px) {
+        .footer__all {
+            display: flex;
+            align-items: flex-start;
+            padding: 20px;
         }
         .footer__content{
             display: flex;

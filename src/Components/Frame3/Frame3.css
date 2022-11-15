@@ -18,8 +18,15 @@
     line-height: 60px;
 }
 
-@media only screen and (max-width: 700px) {
-    .frame3__all {
-        padding: 5px;
+@media  (max-width: 480px) {
+    .frame3__all h1{
+        padding: 20px;
+    }
+}
+
+
+@media  (max-width: 768px) {
+    .frame3__all h1 {
+        padding: 20px;
     }
 }

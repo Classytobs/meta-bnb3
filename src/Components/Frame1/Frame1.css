@@ -32,10 +32,19 @@
     margin-bottom: 60px;
     
 }
-@media  (max-width: 700px) {
+@media (max-width: 480px) {
     .frame1 {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        justify-content: center;
+        display: flex;
+
+    }
+}
+@media  (max-width: 768px) {
+    .frame1 {
+        padding-left: 20px;
+        padding-right: 20px;
         justify-content: center;
         display: flex;
 
